@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>react-router | Friday-F</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="description" content="一个不爱折腾的人折腾的东西">
+    
+    <link rel="preload" href="/assets/css/0.styles.12e565a3.css" as="style"><link rel="preload" href="/assets/js/app.ae29df75.js" as="script"><link rel="preload" href="/assets/js/4.a40782dd.js" as="script"><link rel="preload" href="/assets/js/94.832e1613.js" as="script"><link rel="prefetch" href="/assets/js/1.ba38735d.js"><link rel="prefetch" href="/assets/js/10.22a59f90.js"><link rel="prefetch" href="/assets/js/100.b28cf1df.js"><link rel="prefetch" href="/assets/js/11.871041b1.js"><link rel="prefetch" href="/assets/js/12.ae5edadb.js"><link rel="prefetch" href="/assets/js/13.3c2b932e.js"><link rel="prefetch" href="/assets/js/14.2fb8fa1d.js"><link rel="prefetch" href="/assets/js/15.5d4b9c88.js"><link rel="prefetch" href="/assets/js/16.a94aa3a8.js"><link rel="prefetch" href="/assets/js/17.67646156.js"><link rel="prefetch" href="/assets/js/18.f85d95c5.js"><link rel="prefetch" href="/assets/js/19.233d0352.js"><link rel="prefetch" href="/assets/js/20.9faf0040.js"><link rel="prefetch" href="/assets/js/21.88d2a023.js"><link rel="prefetch" href="/assets/js/22.3a3704b1.js"><link rel="prefetch" href="/assets/js/23.092e710e.js"><link rel="prefetch" href="/assets/js/24.02303edb.js"><link rel="prefetch" href="/assets/js/25.5282c6e9.js"><link rel="prefetch" href="/assets/js/26.78ff5269.js"><link rel="prefetch" href="/assets/js/27.34543e93.js"><link rel="prefetch" href="/assets/js/28.84481a75.js"><link rel="prefetch" href="/assets/js/29.5d8bbf2b.js"><link rel="prefetch" href="/assets/js/3.c6205a94.js"><link rel="prefetch" href="/assets/js/30.33fa3211.js"><link rel="prefetch" href="/assets/js/31.861bb416.js"><link rel="prefetch" href="/assets/js/32.1da78d0b.js"><link rel="prefetch" href="/assets/js/33.66cd9bad.js"><link rel="prefetch" href="/assets/js/34.26ade154.js"><link rel="prefetch" href="/assets/js/35.e3b39784.js"><link rel="prefetch" href="/assets/js/36.66acb26a.js"><link rel="prefetch" href="/assets/js/37.a2f3982f.js"><link rel="prefetch" href="/assets/js/38.c812110e.js"><link rel="prefetch" href="/assets/js/39.051b7cd1.js"><link rel="prefetch" href="/assets/js/40.00f5d533.js"><link rel="prefetch" href="/assets/js/41.b08813c5.js"><link rel="prefetch" href="/assets/js/42.c4f50c9b.js"><link rel="prefetch" href="/assets/js/43.62fb2e96.js"><link rel="prefetch" href="/assets/js/44.6e363b48.js"><link rel="prefetch" href="/assets/js/45.4d1a64ad.js"><link rel="prefetch" href="/assets/js/46.a22592cb.js"><link rel="prefetch" href="/assets/js/47.4e5fbb30.js"><link rel="prefetch" href="/assets/js/48.9ee006c2.js"><link rel="prefetch" href="/assets/js/49.fefd4d7d.js"><link rel="prefetch" href="/assets/js/5.336ac9b2.js"><link rel="prefetch" href="/assets/js/50.2342dee8.js"><link rel="prefetch" href="/assets/js/51.3011e241.js"><link rel="prefetch" href="/assets/js/52.f9a11876.js"><link rel="prefetch" href="/assets/js/53.33df86c0.js"><link rel="prefetch" href="/assets/js/54.693eba54.js"><link rel="prefetch" href="/assets/js/55.20d3cd19.js"><link rel="prefetch" href="/assets/js/56.2140d40a.js"><link rel="prefetch" href="/assets/js/57.56a64d0f.js"><link rel="prefetch" href="/assets/js/58.1f171e0c.js"><link rel="prefetch" href="/assets/js/59.0bc81d4b.js"><link rel="prefetch" href="/assets/js/6.89d1e74e.js"><link rel="prefetch" href="/assets/js/60.deaf0238.js"><link rel="prefetch" href="/assets/js/61.f1dd5fd6.js"><link rel="prefetch" href="/assets/js/62.2a5b1eb5.js"><link rel="prefetch" href="/assets/js/63.43024de8.js"><link rel="prefetch" href="/assets/js/64.feb8c79e.js"><link rel="prefetch" href="/assets/js/65.2ba24438.js"><link rel="prefetch" href="/assets/js/66.6882b68f.js"><link rel="prefetch" href="/assets/js/67.928efbd5.js"><link rel="prefetch" href="/assets/js/68.89207352.js"><link rel="prefetch" href="/assets/js/69.ac2b6a81.js"><link rel="prefetch" href="/assets/js/7.30357921.js"><link rel="prefetch" href="/assets/js/70.0f128131.js"><link rel="prefetch" href="/assets/js/71.c60c169c.js"><link rel="prefetch" href="/assets/js/72.34d0d682.js"><link rel="prefetch" href="/assets/js/73.6aa0d7ce.js"><link rel="prefetch" href="/assets/js/74.301b7a56.js"><link rel="prefetch" href="/assets/js/75.833ad4cc.js"><link rel="prefetch" href="/assets/js/76.0e1cde88.js"><link rel="prefetch" href="/assets/js/77.c69290ab.js"><link rel="prefetch" href="/assets/js/78.cc766081.js"><link rel="prefetch" href="/assets/js/79.1fefc02e.js"><link rel="prefetch" href="/assets/js/8.33ab6990.js"><link rel="prefetch" href="/assets/js/80.70b9c996.js"><link rel="prefetch" href="/assets/js/81.2b8ceb91.js"><link rel="prefetch" href="/assets/js/82.de0c0d58.js"><link rel="prefetch" href="/assets/js/83.277a4764.js"><link rel="prefetch" href="/assets/js/84.b6dc23de.js"><link rel="prefetch" href="/assets/js/85.8768a633.js"><link rel="prefetch" href="/assets/js/86.2d0c1a3a.js"><link rel="prefetch" href="/assets/js/87.5e2df1b9.js"><link rel="prefetch" href="/assets/js/88.b57c7d3f.js"><link rel="prefetch" href="/assets/js/89.05f5d271.js"><link rel="prefetch" href="/assets/js/9.907b4fb7.js"><link rel="prefetch" href="/assets/js/90.25671b8a.js"><link rel="prefetch" href="/assets/js/91.10d9f248.js"><link rel="prefetch" href="/assets/js/92.7dd312f0.js"><link rel="prefetch" href="/assets/js/93.7ac28029.js"><link rel="prefetch" href="/assets/js/95.9a656622.js"><link rel="prefetch" href="/assets/js/96.bc904d8a.js"><link rel="prefetch" href="/assets/js/97.6c2cfcbf.js"><link rel="prefetch" href="/assets/js/98.10e68268.js"><link rel="prefetch" href="/assets/js/99.8c4e1a83.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.12e565a3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Friday-F</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/interview/javascript/common.html" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/friday/miscellaneous/sentence.html" class="nav-link">
+  星期五
+</a></div><div class="nav-item"><a href="https://github.com/Friday-F" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/interview/javascript/common.html" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/friday/miscellaneous/sentence.html" class="nav-link">
+  星期五
+</a></div><div class="nav-item"><a href="https://github.com/Friday-F" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Css</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JavaScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>webpack</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>React</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/interview/react/init.html" class="sidebar-link">1.基础</a></li><li><a href="/interview/react/redux.html" class="sidebar-link">2.Redux</a></li><li><a href="/interview/react/reactRouter.html" aria-current="page" class="active sidebar-link">3.reactRouter</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#下载" class="sidebar-link">下载</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#创建目录" class="sidebar-link">创建目录</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#编写代码" class="sidebar-link">编写代码</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#路由跳转" class="sidebar-link">路由跳转</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#路由传参" class="sidebar-link">路由传参</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#二级路由配置" class="sidebar-link">二级路由配置</a></li><li class="sidebar-sub-header"><a href="/interview/react/reactRouter.html#两种路由模式" class="sidebar-link">两种路由模式</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>other</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Blockchain</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>LeetcodeTop</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="react-router"><a href="#react-router" class="header-anchor">#</a> react-router</h1> <h2 id="下载"><a href="#下载" class="header-anchor">#</a> 下载</h2> <div class="language-js line-numbers-mode"><pre class="language-js"><code>npm i react<span class="token operator">-</span>router<span class="token operator">-</span>dom
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="创建目录"><a href="#创建目录" class="header-anchor">#</a> 创建目录</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>- src;
+  - router;
+    - index.js;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="编写代码"><a href="#编写代码" class="header-anchor">#</a> 编写代码</h2> <p>router=&gt;index.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserRouter <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Login <span class="token keyword">from</span> <span class="token string">&quot;../page/login&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Article <span class="token keyword">from</span> <span class="token string">&quot;../page/article&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createBrowserRouter</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/article&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Article <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> router<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>src=&gt;index.js</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">&quot;react-dom/client&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;./index.css&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> reportWebVitals <span class="token keyword">from</span> <span class="token string">&quot;./reportWebVitals&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 导入路由</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> RouterProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> router <span class="token keyword">from</span> <span class="token string">&quot;./router/index&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> root <span class="token operator">=</span> ReactDOM<span class="token punctuation">.</span><span class="token function">createRoot</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&quot;root&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+root<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>React<span class="token punctuation">.</span>StrictMode<span class="token operator">&gt;</span>
+    <span class="token comment">// 路由绑定</span>
+    <span class="token operator">&lt;</span>RouterProvider router<span class="token operator">=</span><span class="token punctuation">{</span>router<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>RouterProvider<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>React<span class="token punctuation">.</span>StrictMode<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">reportWebVitals</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h2 id="路由跳转"><a href="#路由跳转" class="header-anchor">#</a> 路由跳转</h2> <p>login.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> useNavigate <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Login</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> navigate <span class="token operator">=</span> <span class="token function">useNavigate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>登录页面<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* 声明式写法 */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/article&quot;</span><span class="token operator">&gt;</span>声明式跳转<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* 命令式写法 */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">&quot;/article&quot;</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>命令式写法<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Login<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="路由传参"><a href="#路由传参" class="header-anchor">#</a> 路由传参</h2> <p><a href="https://blog.csdn.net/weixin_44872023/article/details/132841774" target="_blank">路由跳转</a></p> <ol><li><strong>useSearchParams</strong></li></ol> <p>​ login.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> useNavigate <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Login</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> navigate <span class="token operator">=</span> <span class="token function">useNavigate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* 传参方式 useSearchParams */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">&quot;/article?id=1001&amp;name=jack&quot;</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        传参方式 useSearchParams
+      <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Login<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>article.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useSearchParams <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Article</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>params<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useSearchParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> id <span class="token operator">=</span> params<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">&quot;id&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> name <span class="token operator">=</span> params<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">&quot;name&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>文章页面<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>
+        useSearchParams传递的参数<span class="token punctuation">{</span>id<span class="token punctuation">}</span><span class="token operator">--</span><span class="token operator">-</span><span class="token punctuation">{</span>name<span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> Article<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><ol start="2"><li><strong>useParams</strong></li></ol> <p>login.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> useNavigate <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Login</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> navigate <span class="token operator">=</span> <span class="token function">useNavigate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* 第二种 useParams */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">&quot;/article/1001/jack&quot;</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        传参方式 useParams
+      <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Login<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>router=&gt;index.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserRouter <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Login <span class="token keyword">from</span> <span class="token string">&quot;../page/login&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Article <span class="token keyword">from</span> <span class="token string">&quot;../page/article&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createBrowserRouter</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 配置对应的参数</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/article/:id/:name&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Article <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> router<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>article.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useParams <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Article</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> params <span class="token operator">=</span> <span class="token function">useParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> id <span class="token operator">=</span> params<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> name <span class="token operator">=</span> params<span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>文章页面<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>
+        useParams传递的参数：<span class="token punctuation">{</span>id<span class="token punctuation">}</span><span class="token operator">--</span><span class="token operator">-</span><span class="token punctuation">{</span>name<span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Article<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><ol start="3"><li><strong>useLocation</strong></li></ol> <p>login.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> useNavigate <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Login</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> navigate <span class="token operator">=</span> <span class="token function">useNavigate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">goUseLocation</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">&quot;/article&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      state<span class="token operator">:</span> <span class="token punctuation">{</span>
+        id<span class="token operator">:</span> <span class="token number">10001</span><span class="token punctuation">,</span>
+        name<span class="token operator">:</span> <span class="token string">&quot;jack&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* 第三种 useLocation */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">goUseLocation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&gt;</span> 传参方式useLocation<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Login<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>article.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useLocation <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Article</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> location <span class="token operator">=</span> <span class="token function">useLocation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> id <span class="token operator">=</span> location<span class="token punctuation">.</span>state<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> name <span class="token operator">=</span> location<span class="token punctuation">.</span>state<span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>文章页面<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>
+        useLocation传递的参数：<span class="token punctuation">{</span>id<span class="token punctuation">}</span><span class="token operator">--</span><span class="token operator">-</span><span class="token punctuation">{</span>name<span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> Article<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="二级路由配置"><a href="#二级路由配置" class="header-anchor">#</a> 二级路由配置</h2> <p>router.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserRouter <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Login <span class="token keyword">from</span> <span class="token string">&quot;../page/login&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Article <span class="token keyword">from</span> <span class="token string">&quot;../page/article&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">&quot;../page/layout&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Use <span class="token keyword">from</span> <span class="token string">&quot;../page/use&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> About <span class="token keyword">from</span> <span class="token string">&quot;../page/about&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Home <span class="token keyword">from</span> <span class="token string">&quot;../page/home&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createBrowserRouter</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/article/:id/:name&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Article <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 配置二级路由</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/config&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Layout <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        index<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Home <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span> <span class="token comment">// 默认指向Home组件，需要设置index: true 属性</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;use&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Use <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;about&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//配置404页面</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>NoFound <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> router<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br></div></div><p>layout.js 配置二级路由渲染位置</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> Outlet <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Layout</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>layout父级页面<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/config/use&quot;</span><span class="token operator">&gt;</span>use页面<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/config/about&quot;</span><span class="token operator">&gt;</span>about页面<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/config&quot;</span><span class="token operator">&gt;</span>Home页面<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token comment">/* 配置二级路由渲染位置 */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Outlet <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Layout<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><h2 id="两种路由模式"><a href="#两种路由模式" class="header-anchor">#</a> 两种路由模式</h2> <ol><li>hash</li></ol> <ul><li>创建路由方式<code>createHashRouter</code></li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserRouter<span class="token punctuation">,</span> createHashRouter <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Login <span class="token keyword">from</span> <span class="token string">&quot;../page/login&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Article <span class="token keyword">from</span> <span class="token string">&quot;../page/article&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">&quot;../page/layout&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Home <span class="token keyword">from</span> <span class="token string">&quot;../page/home&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Use <span class="token keyword">from</span> <span class="token string">&quot;../page/use&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> About <span class="token keyword">from</span> <span class="token string">&quot;../page/about&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> NoFound <span class="token keyword">from</span> <span class="token string">&quot;../page/notFound&quot;</span><span class="token punctuation">;</span>
+
+hash模式：createHashRouter
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createHashRouter</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// {</span>
+  <span class="token comment">//   path: &quot;/article/:id/:name&quot;,</span>
+  <span class="token comment">//   element: &lt;Article /&gt;,</span>
+  <span class="token comment">// },</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/article&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Article <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/config&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Layout <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        index<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Home <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;use&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Use <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;about&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>NoFound <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> router<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br></div></div><ol start="2"><li>history</li></ol> <ul><li>创建路由的方式<code>createBrowserRouter</code></li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserRouter<span class="token punctuation">,</span> createHashRouter <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Login <span class="token keyword">from</span> <span class="token string">&quot;../page/login&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Article <span class="token keyword">from</span> <span class="token string">&quot;../page/article&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">&quot;../page/layout&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Home <span class="token keyword">from</span> <span class="token string">&quot;../page/home&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Use <span class="token keyword">from</span> <span class="token string">&quot;../page/use&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> About <span class="token keyword">from</span> <span class="token string">&quot;../page/about&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> NoFound <span class="token keyword">from</span> <span class="token string">&quot;../page/notFound&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// history模式: createBrowserRouter</span>
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createBrowserRouter</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// {</span>
+  <span class="token comment">//   path: &quot;/article/:id/:name&quot;,</span>
+  <span class="token comment">//   element: &lt;Article /&gt;,</span>
+  <span class="token comment">// },</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/article&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Article <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;/config&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>Layout <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        index<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Home <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;use&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>Use <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token string">&quot;about&quot;</span><span class="token punctuation">,</span>
+        element<span class="token operator">:</span> <span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    element<span class="token operator">:</span> <span class="token operator">&lt;</span>NoFound <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> router<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">12/28/2023, 8:30:29 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/interview/react/redux.html" class="prev">
+        2.Redux
+      </a></span> <span class="next"><a href="/interview/other/optimize.html">
+        1.优化
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ae29df75.js" defer></script><script src="/assets/js/4.a40782dd.js" defer></script><script src="/assets/js/94.832e1613.js" defer></script>
+  </body>
+</html>
